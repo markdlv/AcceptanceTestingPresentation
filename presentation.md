@@ -80,10 +80,9 @@ VSLIDE
 
 What is "end to end"?
 
-TODO: images showing the different "end-to-end" concepts
-* everything
-* entire ember app
-* only your addon/engine
+* everything, including APIs?
+* all UI code?
+* only your addon/engine?
 
 <p class="fragment fade-in">
 For now, let's say you only want to test your code<br>
@@ -462,17 +461,28 @@ VSLIDE
 
 ### Opinion: Volume & happy-pathiness
 
-TODO: pyramid
+1. Unit
+2. Integration
+3. Acceptance
+4. Full automation
+
+<ul class="fragment fade-in">
+The higher on the list, the more volume of tests<br>
+The higher on the list, the more edge cases should be covered<br>
+The lower on the list, the more "happy path" the tests should be<br>
+<p>
 
 VSLIDE
 
 ### Preview: Stale mocks
 
-By breaking the models out into mirage factories, serializers, etc., it’s hard to see at a glance what your ember app expects across the wire.
+By breaking the models out into mirage factories, serializers, etc., it's hard to see at a glance what your ember app expects across the wire
 
 This is particularly a problem when attempting to mitigate whether or not mock objects have become stale in any way.
 
-Sneak peak into MockValidator idea
+Working on it
+
+HSLIDE
 
 ## Thanks!
 
