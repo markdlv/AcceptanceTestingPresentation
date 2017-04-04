@@ -1,1 +1,1 @@
-# AcceptanceTestingPresentation
+This repo is for a very simple presentation on New Relic usage for the onboarding/billing team at Genesys.
