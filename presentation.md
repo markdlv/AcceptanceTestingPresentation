@@ -105,7 +105,7 @@ HSLIDE
 
 ## Enter ember-cli-mirage
 
-![Mirage feels like Ember Data](/img/mirageSolvesTheseProblems.png)
+![Mirage feels like Ember Data](img/mirageSolvesTheseProblems.png)
 
 NOTE: Mirage allows for routes, a *client-side* database, factories and fixtures, and serializers.  All of these things might remind you of Ember Data.  If you just cringed a little bit when I said the words "Ember Data", I understand.  But I will say, when it comes to doing the "prepare" portion of tests, I've actually found Ember Data flow to be a pretty nice fit.
 
@@ -136,7 +136,7 @@ Great starting point to get your dummy app working.
 
 <p class="fragment fade-in">
 But the ember-cli-mirage docs are spot on:
-![Need dynamic data](/img/dynamicData.png)
+![Need dynamic data](img/dynamicData.png)
 <p>
 
 NOTE: For point #2: this is where I'm saying the Ember Data flow is quite nice.  Instead of duplicating the possibly-verbose format of an API across all of your mocks, use a model to hold the content you care about and a serializer to format it.
@@ -343,7 +343,7 @@ VSLIDE
 
 ### Where to seed the database
 
-![Important files](/img/importantFiles.png)
+![Important files](img/importantFiles.png)
 
 VSLIDE
 
