@@ -94,7 +94,7 @@ VSLIDE
 
 ### But wait
 
-![http-mock is only for ember s](/img/mocksAreOnlyForDev.png)
+![http-mock is only for ember s](img/mocksAreOnlyForDev.png)
 
 <p class="fragment fade-in">From here, you could use pretender for the tests..</p>
 <p class="fragment fade-in">But http-mock uses CommonJS and pretender uses ES6 modules, so sharing mocks would be cumbersome</p>
